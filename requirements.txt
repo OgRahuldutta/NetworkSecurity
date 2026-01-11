@@ -1,0 +1,9 @@
+python-dotenv
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+scikit-learn
+streamlit
+flask
