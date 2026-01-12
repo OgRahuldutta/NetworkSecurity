@@ -9,6 +9,7 @@ streamlit
 flask
 pymongo
 certifi
+pymongo[srv]==3.11
 
 
 
