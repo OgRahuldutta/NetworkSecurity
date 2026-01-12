@@ -7,3 +7,10 @@ seaborn
 scikit-learn
 streamlit
 flask
+pymongo
+certifi
+
+
+
+
+# -e .
