@@ -17,7 +17,7 @@ import numpy as np
 from dotenv import load_dotenv
 load_dotenv()
 
-MONGO_DB_URL = os.getenv("MONGO_DB_URL")
+MONGO_DB_URL = os.getenv("MONGO_DB_URI")
 
 class DataIngestion:
     def __init__(self,data_ingestion_config:DataIngestionConfig):
