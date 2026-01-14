@@ -5,7 +5,7 @@ import json
 from dotenv import load_dotenv
 load_dotenv()
 
-MONGO_DB_URL = os.getenv("MONGO_URI")
+MONGO_DB_URL = os.getenv("MONGO_DB_URI")
 print(MONGO_DB_URL)
 
 import certifi
@@ -48,7 +48,7 @@ class NetworkDataExtract():
 
 if __name__=='__main__':
     FILE_PATH="Network_Data\phishing_dataset.csv"
-    DATABASE="RAHULAI"
+    DATABASE="CLUSTERAI"
     Collection="NetworkData"
     networkobj=NetworkDataExtract()
     records=networkobj.csv_to_json_convertor(file_path=FILE_PATH)
